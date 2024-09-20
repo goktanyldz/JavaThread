@@ -24,6 +24,7 @@ public class Main {
                 () -> System.out.println("Runnable 7"),
                 () -> System.out.println("Runnable 8"),
                 () -> System.out.println("Runnable 9"));
+                () -> System.out.println("Runnable 10"));
 
 
         List<Callable<Integer>> callableList = Arrays.asList(
